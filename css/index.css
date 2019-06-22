@@ -337,7 +337,6 @@ footer {
   border: none;
   border-radius: 5px;
   width: 60%;
-  height: 30px;
   cursor: pointer;
 }
 .container button:hover {
