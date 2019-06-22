@@ -162,6 +162,7 @@ p {
 }
 .nav-container {
   display: flex;
+  font-family: #454A59;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -193,9 +194,11 @@ footer {
 }
 .home .intro h2 {
   padding: 15px;
+  color: #23293B;
 }
 .home .intro p {
   padding: 0 15px;
+  color: #5E6164;
 }
 .home .intro img {
   border-radius: 5px;
