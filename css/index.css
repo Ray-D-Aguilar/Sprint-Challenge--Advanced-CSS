@@ -177,6 +177,8 @@ p {
   padding: 15px 0;
   background-color: #F6F6F6;
   border-bottom: 1px solid #F1F1F1;
+  position: fixed;
+  top: 0;
 }
 .nav-container a {
   text-decoration: none;
@@ -340,6 +342,7 @@ footer {
   cursor: pointer;
 }
 .container button:hover {
+  color: red;
   background-color: black;
   font-weight: bold;
 }
