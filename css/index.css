@@ -169,6 +169,7 @@ p {
   font-size: 1.5rem;
   padding: 15px 0;
   background-color: #F6F6F6;
+  border-bottom: 1px solid #F1F1F1;
 }
 .nav-container a {
   text-decoration: none;
@@ -195,6 +196,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
