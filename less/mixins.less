@@ -1,5 +1,17 @@
 // Mixins Here
 
+.mobile-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-width () {
+    min-width: 100%;
+}
+
+// Parametric Mixin
 .btn-mixin (@btn-bg-color, @btn-padding) {
     background-color: @btn-bg-color;
     padding: @btn-padding;
@@ -10,9 +22,3 @@
     cursor: pointer;
 }
 
-.mobile-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
