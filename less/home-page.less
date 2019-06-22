@@ -4,6 +4,9 @@
 
   .intro {
     
+    @media @phone {
+      min-width: 100%;
+    }
 
     h2 {
       padding: 15px;
@@ -103,16 +106,23 @@
         margin-bottom: 26px;
       }
 
+      .btn {
+        min-width: 100%;
+      }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media @phone {
+        min-width: 100%;
+      }
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        
       }
     }
   }
@@ -133,5 +143,10 @@
 
   button {
     .btn-mixin(#22283A, 5px 15px);
+    @media @phone {
+      min-width: 100%;
+      padding: 20px 0;
+
+    }
   }
 }

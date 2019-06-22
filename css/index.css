@@ -203,6 +203,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .home .intro {
+    min-width: 100%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
   color: #23293B;
@@ -296,9 +301,17 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  min-width: 100%;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    min-width: 100%;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
@@ -324,4 +337,10 @@ footer {
   border-radius: 5px;
   width: 50%;
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .container button {
+    min-width: 100%;
+    padding: 20px 0;
+  }
 }
