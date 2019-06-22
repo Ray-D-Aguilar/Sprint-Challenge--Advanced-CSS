@@ -336,7 +336,8 @@ footer {
   color: white;
   border: none;
   border-radius: 5px;
-  width: 50%;
+  width: 60%;
+  height: 30px;
   cursor: pointer;
 }
 .container button:hover {
