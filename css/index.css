@@ -339,6 +339,10 @@ footer {
   width: 50%;
   cursor: pointer;
 }
+.container button:hover {
+  background-color: black;
+  font-weight: bold;
+}
 @media (max-width: 500px) {
   .container button {
     min-width: 100%;
