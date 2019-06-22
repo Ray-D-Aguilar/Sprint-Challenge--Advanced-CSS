@@ -25,6 +25,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media @phone{
+      min-width: 100%;
+    }
 
     img {
       width: 28%;
@@ -32,6 +35,19 @@
       border-radius: 20px;
       height: 100%;
     }
+
+    .blast {
+      @media @phone {
+        min-width: 100%;
+      }
+    }
+
+    .sky {
+      @media @phone {
+        display: none;
+      }
+    }
+    
   }
 
   .visit-planets {
