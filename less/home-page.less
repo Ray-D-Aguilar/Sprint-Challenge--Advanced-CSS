@@ -86,11 +86,14 @@
     @media @phone{
       .mobile-flex();
       flex-direction: column-reverse;
-      width: 90%;
     }
 
     .walk-text {
       width: 50%;
+
+      @media @phone {
+        min-width: 100%;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -100,8 +103,6 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-      }
     }
 
     .walk-img {
