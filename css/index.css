@@ -285,6 +285,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    padding: 10px;
   }
 }
 .home .walk .walk-text {
